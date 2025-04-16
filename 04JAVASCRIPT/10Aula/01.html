@@ -1,0 +1,15 @@
+<script>
+let peso = prompt('Digite seu peso: ')
+let altura = prompt('Digite seu altura: ')
+
+peso = parseFloat(peso)
+altura = parseFloat(altura)
+
+
+function calcularIMC (peso ,altura) {
+    return(peso/(altura*altura))
+}
+
+alert(calcularIMC(peso, altura));
+
+</script>

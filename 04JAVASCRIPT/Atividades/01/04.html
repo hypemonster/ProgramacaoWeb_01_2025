@@ -1,0 +1,18 @@
+/*4. Validação de Palavra em Texto
+Descrição: Crie um programa que receba um texto e uma palavra, e verifique se a palavra está
+contida no texto.
+Requisitos:
+Use métodos de string, como includes, para realizar a verificação.
+Utilize if/else para mostrar uma mensagem indicando se a palavra foi encontrada ou não.
+Pegue a mensagem com prompt() e exiba com Alert().*/
+
+<script>
+    let texto = prompt('Digite um texto: ')
+    let palavra = prompt('Digite uma palavra para verificar no texto: ')
+
+    if (texto.toLowerCase().includes(palavra.toLowerCase())) {
+        alert(`O texto tem a palavra ${palavra}`)
+    } else {
+        alert(`O texto não tem a palavra ${palavra}`)
+    }
+</script>
