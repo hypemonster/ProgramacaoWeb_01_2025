@@ -1,0 +1,16 @@
+header{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: black;
+}
+nav{
+    text-align: center;
+
+}
+body{
+    background-color: darkgoldenrod;
+}
+#item{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
