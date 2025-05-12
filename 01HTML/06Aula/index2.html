@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário HTML</title>
+</head>
+<body>
+    <form action="#" method="get">
+        <select name="sudeste" id="sudeste">
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="MG">Minas Gerais</option>
+        </select>
+
+        <datalist id="locomocao">
+            <option value="bike">Barra-forte</option>
+            <option value="carro">Kwid</option>
+            <option value="barco">Lança</option>
+            <option value="cavalo">Alazão</option>
+            <option value="jegue">Berlindo</option>
+        </datalist>
+        <input autocomplete="on" list="locomocao" id="meiostransportes" placeholder="seu meio de transporte">
+    </form>
+
+</body>
+</html>

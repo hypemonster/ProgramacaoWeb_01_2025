@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário HTML</title>
+    <link rel="icon" href="https://cdn0.iconfinder.com/data/icons/social-network-7/50/22-1024.png">
+    <style>
+        #text{
+            color: aliceblue;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+        }
+        
+    </style>
+</head>
+<body id="body" style="background-image: url(https://th.bing.com/th/id/OIP.L6jdANoDvms9tUdEfRkS3wHaEO?cb=iwp2&rs=1&pid=ImgDetMain);">
+    <h1 id="text">PESQUISA C6BANK 2025</h1>
+    <form action="" method="post">
+            <!-- For = Para / label é para o elemento de ID NomeUsuario -->
+        <label for="NomeUsuario" id="text">Insira seu nome:</label>
+        <input type="text" id="NomeUsuario"><br>
+        <br>
+
+
+            <!-- O Radio permite o que o usuario escolha apenas uma opção de várias
+            para identificar que radios diferetnes respondem o mesma pergunta colocamos o mesmo
+            nome em todos o que diferencia um radio do outro é seu id, que deve ser único -->
+        <input type="radio" name="Bancos" value="opcao1" id="NUBANK">
+        <label for="opcao1" id="text">NuBank</label> <br>
+        <input type="radio" name="Bancos" value="opcao2" id="C6BANK">
+        <label for="opcao2" id="text">C6Bank</label> <br>
+        <input type="radio" name="Bancos" value="opcao3" id="PORTOSEGURO">
+        <label for="opcao3" id="text">Porto Seguro</label> <br>
+        <input type="radio" name="Bancos" value="opcao4" id="NENHUM">
+        <label for="opcao4" id="text">Nenhum</label>
+
+        <br><br>
+            <!-- Su -->
+        <label for="Comentario" id="text">Justifique seu banco</label><br>
+        <textarea name="Comentario" id="coment" cols="30" rows="5"></textarea>
+
+        <br><br>
+        <input type="submit" value="Enviar">
+
+
+
+    </form>
+    
+</body>
+</html>
