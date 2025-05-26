@@ -1,0 +1,19 @@
+@charset "UTF-08";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.quadrado{
+    
+    height: 300px;
+    width: 300px;
+}
+
+.quadrado__rosa{
+    background-color: pink;
+}
+
+.quadrado__azul{
+    background-color: blue;
+}
