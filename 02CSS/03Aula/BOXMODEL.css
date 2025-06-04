@@ -1,7 +1,8 @@
-@charset "UTF-08";
+@charset "UTF-8";
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .quadrado{
@@ -16,4 +17,10 @@
 
 .quadrado__azul{
     background-color: blue;
+}
+
+#cachorro{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    
 }
