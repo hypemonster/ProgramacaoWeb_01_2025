@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    background-color: black;
+    display: flex;
+    /*Flex-wrap: determina de o container flexível amassara ou encolhrá seus elementos, também é possível determinar de que maneira isso ocorre ou não.*/
+    gap: 10px;
+    /*Gap: é um espaço que só existe entre itens de um mesmo bloco*/
+}
+
+.quadrado{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    border: #ea00ff solid 10px;
+    border-radius: 5px;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    /*"Content" utilizamos quando ocorre wrap ou temos mais de uma linha ou coluna.
+      Já o "items", utilizamos quando não ocorre wrap ou temos apenas uma linha.*/
+    align-items: center;
+    flex-basis: 300px;
+    /*O Flex-basis: determina tamanho mínimo inicial dos elementos flexível.*/
+}
+
+
+.quadrado_1:hover{
+    border: aquamarine;
+} 
+
+#quatro{
+    flex-grow: 3;
+    /*Flex-grow: determina o espaço ocupado por determinar item. o tamanho padrão do flex-grow é 0, mas se você declara um flex-grow de 2, esse elemento ocupará o dobro de espaço flexível.*/
+    flex-shrink: 2;
+    /*Flex-shrink: ele encolhe primeiro que os outros.*/
+}
+
+#seis{
+    flex: 1 2 300px;
+
+    /*Apenas Flex abrevia os outros 3 elementos em um só.
+    Primeiro valor é responsável pelo grow,
+    Segundo valor é responsável pelo shrink.
+    Terceiro valor é responsável pelo basis.
+    Mais usado flex: 1 auto;*/
+}
+
+
